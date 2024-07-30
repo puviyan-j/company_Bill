@@ -1,0 +1,48 @@
+table,
+tr,
+td,
+th {
+    border: 1px solid #000;
+    border-collapse:collapse;
+    padding: 5px;
+
+}
+table{
+    margin-top: 16px;
+    width: 100%;
+    
+}
+.goods_q,.goods_rate,.amount{
+    text-align: right;
+    width: 70px;
+}
+.goodsname{
+    text-align: center;
+}
+.amount{
+    width: 70px
+}
+.totel_div{
+    display: flex;
+  justify-content:right;
+}
+.sub_totel{
+    text-align: right;
+}
+.sub_amount{
+    display: inline-block;
+    width: 70px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #000;
+    padding: 5px;
+
+}
+.table_totel{
+padding: 5px 10px;
+    display: inline-block;
+    width: 250px;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-color: #000;
+}

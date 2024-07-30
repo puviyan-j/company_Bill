@@ -1,0 +1,51 @@
+.preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.pre_main {
+    padding: 32px 78px;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    padding-bottom: 16px;
+}
+
+.company_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pre_heading {
+
+    font-size: 17px;
+}
+
+.company_gstin {
+    padding-bottom: 10px;
+}
+
+.gst{
+    font-weight: 650;
+    padding-bottom: 5px;
+    font-size: 14px;
+    
+}
+
+.company_name {}
+
+.company__name {
+    text-transform: uppercase;
+    text-align: end;
+}
+
+.address {
+    list-style: none;
+    text-align: end;
+}

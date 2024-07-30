@@ -1,0 +1,60 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login_heading {
+    margin: 15px  auto;
+}
+
+.login_inputDiv {
+    margin: 10px auto;
+}
+
+.login_input {
+    padding: 5px 8px;
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    font-size: 16px;
+}
+.login_input::placeholder{
+    opacity: 0.4;
+}
+
+.login_inputDiv {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.login-checkbox {
+    margin-left: 15px;
+}
+.login_button_div{
+    display: flex;
+    justify-content: center;
+}
+.login_button{
+    width: 150px;
+    height: 32px;
+    background-color: rgb(97, 97, 238) ;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+
+
+}
+
+.login_notaccount {
+    margin: 15px 0;
+}
+.login_notaccount  a{
+    text-decoration: none;
+    color: rgb(101, 73, 244);
+}

@@ -1,0 +1,45 @@
+.sender {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 2px solid gray;
+}
+
+.sender_head {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.sender_name {
+    text-transform: uppercase;
+
+}
+
+.sender__address {
+    display: flex;
+
+}
+
+.sender_address {
+    list-style: none;
+
+}
+
+.empty_main {
+    display: flex;
+    justify-content:flex-end;
+}
+
+.empty {
+    height: 5px;
+    width: 50px;
+    background-color: grey;
+    position: relative;
+}
+
+.right {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
